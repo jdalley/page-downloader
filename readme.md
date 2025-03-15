@@ -4,9 +4,7 @@
 1. Takes a hostname parameter ie: "http://eternal-city.wikidot.com"
 2. Crawls web pages within the domain, extracting links from each page and follows them if they're on the same domain.
 3. Stores all the URLs to a text file.
-
-Usage: 
-`.\host-url-crawler.ps1 -HostUrl "http://eternal-city.wikidot.com" -MaxPages 500`
+4. Usage: `.\host-url-crawler.ps1 -HostUrl "http://eternal-city.wikidot.com" -MaxPages 500`
 
 ## Downloader.ps1 Notes
 
